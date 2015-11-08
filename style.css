@@ -1,26 +1,40 @@
 body {
 	background-color: #F3F3F3;
 }
-
 #container {
-	margin-top: 20px;
 	background-color: #FBFBFB;
-
-	-webkit-border-radius: 25px;
-	-moz-border-radius: 25px;
 	border-radius: 25px;
-
-	margin-left: auto;
-	margin-right: auto;
-	width: 750px;
-
-	padding: 100px 50px;
+	margin: 20px auto;
+	max-width: 650px;
+	padding: 20px 50px;
 }
 
 h1, h2, h3, h4, h5 {
 	font-family: sans-serif;
 }
-
-.pull-right {
-	float: right;
+h4 {
+	margin-bottom: 0;
+}
+hr {
+	border: 1px solid #E5E5E5;
+}
+ol {
+	display: table;
+	padding-left: 0;
+	margin: 0;
+	width: 100%;
+}
+ol li {
+	display: table-row;
+	list-style: none;
+}
+ol div {
+	display: table-cell;
+}
+.response {
+	white-space: nowrap;
+}
+.content p {
+	margin: 0;
+	margin-right: 40px;
 }
